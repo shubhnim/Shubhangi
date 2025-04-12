@@ -4,6 +4,7 @@ package-lock.json
 
 # production build
 build/
+devops-build/
 
 # logs
 *.log*
