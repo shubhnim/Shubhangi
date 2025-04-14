@@ -19,7 +19,7 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 script {
-                    sh "docker build -t ${DOCKERHUB_USER}/${IMAGE_NAME}:${DEV_TAG} ."
+                    sh "docker build -t ${DOCKERHUB_USER}/${IMAGE_NAME}-${DEV_TAG} ."
                 }
             }
         }
