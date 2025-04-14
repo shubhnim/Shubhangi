@@ -16,17 +16,6 @@ pipeline {
             }
         }
 
-	stage('Build Frontend') {
-            steps {
-                dir('devops-build') {
-                    sh '''
-                        npm install
-                        npm run build
-                    '''
-                }
-            }
-        }
-
         stage('Build Docker Image') {
             steps {
                 script {
