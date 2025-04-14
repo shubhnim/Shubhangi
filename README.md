@@ -6,3 +6,16 @@ triggering from webhook test
  1 file changed, 11 insertions(+)
 [dev b893b7f] updated jenkins file again
  1 file changed, 11 deletions(-)
+[dev cd32754] adding all files
+ 3 files changed, 33 insertions(+), 45 deletions(-)
+ delete mode 100644 jenkinsfile
+ create mode 100644 key.pem
+On branch dev
+Your branch is up to date with 'origin/dev'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
